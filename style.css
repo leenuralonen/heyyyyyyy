@@ -5,6 +5,10 @@ font-size: medium;
 h1{
   color: white;
 }
+
+h2{
+  color: darkorange;
+}
 section{
   margin: 12px;
   padding: 8px;

@@ -1,19 +1,22 @@
-h1 {color: blueviolet
+body {background-color: blue;
+font-size: medium;
 }
 
+h1{
+  color: white;
+}
 section{
   margin: 12px;
   padding: 8px;
 }
 
-h2 {color:blue
+header {color:blue
 }
  section {
   margin:8px;
   padding: 12px;
  }
 
- h3 {color: brown}
   
   section {
    margin:24px;

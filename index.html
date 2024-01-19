@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CPRG  Day 1 Sample Lab</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Form!!</title>
+    <script>
+        function showAlert() {
+            alert('Form Successfully Created');
+        }
+    </script>
 </head>
 <body>
-  <Main>
-    <head>
-      <h2>
-        HTML, CSS, and git examples. this file also include
-      </h2>
-    </head> 
-    <h1>
-    <p>
-      CPRG Day 1
-    </p>
-    </h1>
-    <h3>
-      <head>
-      <P>this is a test</p>
-      </head>
-    </h3>
-  </Main>
+  <h1>
+  <link rel="stylesheet" href="style.css">
+    <form onsubmit="showAlert(); return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="address">Address:</label>
+        <input type="address" id="address" name="address" required>
+
+        <label for="province">Province:</label>
+        <input type="province" id="province" name="province" required>
+
+        <label for="country">Country:</label>
+        <input type="country" id="country" name="country" required>
+
+        <label for="postalcode">Postal Code:</label>
+        <input type="postalcode" id="postalcode" name="postalcode" required>
+
+
+
+        <input type="submit" value="Submit">
+    </form></h1>
 </body>
 </html>
